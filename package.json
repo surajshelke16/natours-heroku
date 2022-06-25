@@ -4,7 +4,10 @@
   "description": "Learning node, express and mongoDB",
   "main": "app.js",
   "targets": {
-    "main": false
+    "main": false,
+    "default": {
+      "includeNodeModules": true
+    }
   },
   "scripts": {
     "start": "nodemon server.js",
@@ -18,6 +21,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "axios": "^0.27.2",
+    "babel-polyfill": "^6.26.0",
     "bcrypt": "^5.0.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",

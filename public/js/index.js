@@ -1,5 +1,6 @@
-import '@babel/polyfill';
+// import '@babel/polyfill';
 // require('babel-polyfill');
+import 'babel-polyfill';
 import { login, logout } from './login';
 import { displayMap } from './mapBox';
 import { updateSettings } from './updateSettings';
